@@ -1,0 +1,29 @@
+---
+#title: {{< var abc >}}
+title: "abc"
+bibliography: abc.bib
+---
+
+# Preface and introduction
+
+@working_paper_example
+
+some text goes here
+
+# References
+
+abc
+
+```{r}
+#| echo: false
+#| label: wordstats
+#| warning: false
+#| message: false
+wordcount <- wordcountaddin::text_stats('index.qmd')
+words <- substr(wordcount[3], start=19, stop=30)
+```
+
+Hello there, how many words are in the body? 
+There are `r words` words in the whole document. 
+
+
