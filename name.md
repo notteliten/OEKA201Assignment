@@ -6,7 +6,10 @@
 ...
 `<Inser name of Group member N> <Student code>`
 
-Confirmation received: JIH
+# Confirmation
+
+`<I will write confirmed message here> `
+
 
 
 
