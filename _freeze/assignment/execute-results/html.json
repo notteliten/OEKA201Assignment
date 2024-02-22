@@ -1,0 +1,15 @@
+{
+  "hash": "c4ccaa5a570b41fd1401e7902b2876fc",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\n#title: {{< var abc >}}\ntitle: \"abc\"\nbibliography: abc.bib\n---\n\n\n# Preface and introduction\n\n@working_paper_example\n\nsome text goes here\n\n# References\n\nabc\n\n\n::: {.cell}\n\n```{.r .cell-code .hidden}\n#| echo: false\n#| label: wordstats\n#| warning: false\n#| message: false\nwordcount <- wordcountaddin::text_stats('index.qmd')\n```\n\n::: {.cell-output .cell-output-stderr .hidden}\n\n```\nFor information on available language packages for 'koRpus', run\n\n  available.koRpus.lang()\n\nand see ?install.koRpus.lang()\n```\n\n\n:::\n\n```{.r .cell-code .hidden}\n#| echo: false\n#| label: wordstats\n#| warning: false\n#| message: false\nwords <- substr(wordcount[3], start=19, stop=30)\n```\n:::\n\n\nHello there, how many words are in the body? \nThere are 13           words in the whole document. \n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
