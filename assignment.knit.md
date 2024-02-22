@@ -3,9 +3,17 @@ title: "Assignment"
 bibliography: references.bib
 ---
 
-```{r, echo=F, messages=F, warnings=F}
-source('rscript.R')
+::: {.cell messages='false' warnings='false'}
+::: {.cell-output .cell-output-stdout}
+
 ```
+[1] "R commands read into memory"
+```
+
+
+:::
+:::
+
 
 
 # Introduction
@@ -19,3 +27,4 @@ According to [@knuth84]
 # Conclusions
 
 # References
+
