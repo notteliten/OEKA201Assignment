@@ -1,4 +1,4 @@
-# OEKA201ProgrammingAssignment
+# OEKA201Assignment
 
 
 `<I will write confirmed message here> `
@@ -13,6 +13,10 @@
 
 ## Confirmation
 
+### Part 1
+`<I will write confirmed message here> `
+
+### Part 2
 `<I will write confirmed message here> `
 
 
