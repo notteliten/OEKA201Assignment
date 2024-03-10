@@ -1,6 +1,6 @@
 ---
 title: "Assignment"
-bibliography: references.bib
+bibliography: ref.bib
 ---
 
 ```{r, echo=F, messages=F, warnings=F}
