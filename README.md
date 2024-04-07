@@ -2,10 +2,8 @@
 
 ## Insert name of group members here
 
-- `<Inser name of Group member 1> <Student code>`
-- `...`
-- `...`
-- `<Inser name of Group member N> <Student code>`
+- Jenny Brunsgård Ek, Student code; 212380
+
 
 ## Confirmation
 ### Part 1
